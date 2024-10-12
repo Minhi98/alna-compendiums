@@ -21,7 +21,9 @@
       "flags": {}
     }
   ],
-  "url": "https://ttrpg.minhi.net",
+  "url": "https://github.com/Minhi98/alna-compendiums",
+  "manifest": "https://raw.githubusercontent.com/Minhi98/alna-compendiums/main/module.json",
+  "download": "https://github.com/Minhi98/alna-compendiums/archive/main.zip",
   "packs": [
     {
       "name": "alna-maps",
@@ -57,6 +59,17 @@
       },
       "system": "pf2e",
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Alna",
+      "sorting": "a",
+      "packs": [
+        "alna-maps",
+        "religions",
+        "character-options"
+      ]
     }
   ]
 }
