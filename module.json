@@ -1,7 +1,7 @@
 {
   "id": "alna-compendiums",
   "title": "Alna Compendiums",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -10,6 +10,11 @@
     "requires": [
       {
         "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tagger",
         "type": "module",
         "compatibility": {}
       }
@@ -33,32 +38,29 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
       "name": "religions",
       "label": "Religions",
       "path": "packs/religions",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "character-options",
       "label": "Character Options",
       "path": "packs/character-options",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     }
   ],
   "packFolders": [
@@ -69,7 +71,9 @@
         "alna-maps",
         "religions",
         "character-options"
-      ]
+      ],
+      "color": null,
+      "folders": []
     }
   ]
 }
